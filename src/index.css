@@ -1,0 +1,79 @@
+html, body {
+ margin: 0px;
+ padding: 0px;
+ border: 0px;
+ height: 100%;
+ }
+body > div {
+  height: 100%;
+}
+
+body {
+  font-family: Georgia;
+  font-size: 15pt;
+  background: #ecf0f1;
+  color: #34495e;
+}
+/*
+ul {
+  position: relative;
+  margin: 10px 0px;
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background: #fff;
+  padding: 10px 10px;
+}*/
+
+ul li:hover {
+  background-color: #C7D5D8;
+  cursor: pointer;
+}
+
+.panels-container {
+  height: 100%;
+  width: 100%;
+  display: inline-flex;
+}
+
+/*.members-panel {
+  height: 90%;
+  display: inline-block;
+  background: #fff;
+  margin: 50px;
+  padding: 5px;
+  /*width: calc(100% - 20% - 50 - 50 - 50);
+  width: 70%;
+}*/
+
+.teams-panel {
+  height: 90%;
+  display: inline-block;
+  background: #fff;
+  margin: 50px;
+  padding: 5px;
+  width: 20%
+}
+
+.right {
+  float: right;
+}
+
+button {
+  font-family: Georgia;
+  cursor: pointer;
+  padding: 5px 5px;
+}
+
+.teams-panel button {
+
+}
+
+input {
+    width: 99%;
+    padding: 5px 0px;
+    font-family: Georgia;
+    font-size: 15pt;
+}
